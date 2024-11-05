@@ -1,0 +1,23 @@
+.custom1 {
+    display: inline-block;
+    font-weight: 600;
+    margin: auto;
+    color: #fff; /* This sets the default text color to white */
+}
+
+.custom1 a {
+    color: #fff; /* Ensures that the anchor text is white */
+    text-decoration: none; /* Optional: Remove underline from links */
+}
+
+.custom1 .currentm {
+    color: #fff; /* Ensure that the current page text is white */
+}
+
+.custom1 a:after {
+    content: ""; /* Ensure correct icon unicode */
+    font-family: Simple-Line-Icons; /* Ensure this font is loaded */
+    font-size: 10px;
+    letter-spacing: 0px !important; /* Use with caution */
+    color: #fff; /* Ensuring the icon color is also white */
+}
